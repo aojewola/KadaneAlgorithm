@@ -27,10 +27,6 @@ def maxSubArray(arr):
 
     longest_array = arr[start: end+1]
 
-    # print ("Maximum contiguous sum is %d"%(max_so_far))
-    # print ("Starting Index %d"%(start))
-    # print ("Ending Index %d"%(end))
-
     return longest_array
 
 
